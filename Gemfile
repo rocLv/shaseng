@@ -44,9 +44,11 @@ group :development do
   gem "capistrano-mb", ">= 0.22.2", :require => false
   gem "capistrano-nc", :require => false
   gem "capistrano-rails", :require => false
+
   gem "guard", ">= 2.2.2", :require => false
   gem "guard-livereload", :require => false
   gem "guard-minitest", :require => false
+
   gem "letter_opener"
   gem "listen", ">= 3.0.5"
   gem "overcommit", ">= 0.37.0", :require => false
